@@ -15,3 +15,7 @@ def ddg_query(q):
 @app.route("/soma/<a>/<b>")
 def soma(a, b):
     return str(mymodels.soma(a, b))
+
+@app.route("/core")
+def core():
+    return "Vai Corinthans!!"
